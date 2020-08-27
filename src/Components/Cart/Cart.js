@@ -1,7 +1,7 @@
 import React from 'react';
 import './Cart.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 const Cart = (props) => {
   
   const course=props.course
@@ -15,12 +15,10 @@ const Cart = (props) => {
     <div className="">
       <div className='col-12  mx-auto my-cart'>
         <h5>Order Summery : {course.length}</h5>
-       { course.map(info=>
-          <p>{info.course} <br></br><span>Fees $ {info.price}</span> </p> 
-
-          )}
-      <h4>Total Cost : $ {totalCost}</h4> 
-        
+        { course.map(info=>
+            <p>{info.course} <span> Fees $ {info.price}</span> </p>)
+          }
+        <h4>Total Cost : $ {totalCost}</h4>         
      </div>
     </div>
   );

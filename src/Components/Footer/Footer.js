@@ -10,7 +10,7 @@ const Footer = () => {
           <p className="text-center">&copy; {year} by Nazmul Hossain Khan, - All Rights Reserved</p>
         </div>
       </div>
-  </div>
+    </div>
   );
 };
 

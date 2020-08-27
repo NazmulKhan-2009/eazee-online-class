@@ -2,10 +2,9 @@ import React from 'react';
 import './App.css';
 // Bootstrap
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css" ;
-import "../node_modules/bootstrap/dist/js/bootstrap.bundle"
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle" ;
 // Fontawesome
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // Components
 import CourseData from './CourseData/CourseData';
 import Header from './Components/Header/Header';
@@ -28,32 +27,26 @@ function App() {
   }
   return (
     <div >
-      <Header></Header>
-
-      <div className='container-fluid nav_bg mt-5 '>
-        <div className='row'>
-          <div className='col-md-10 col-sm-10 col-10 mx-auto'>
-          
-      {
-         courseInfo.map(courses=><Course course={courses} key={courses.id} addToCart={addToCart}></Course>) 
-      }
-      
-      
-      
+        <Header></Header>
+        <div className='container-fluid nav_bg mt-5 '>
+          <div className='row'>
+            <div className='col-md-10 col-sm-10 col-10 mx-auto'>
+            
+              {
+                courseInfo.map(courses=><Course course={courses} key={courses.id} addToCart={addToCart}></Course>) 
+              }
+            </div>
+            <div className='col-md-2 col-10 mx-auto'>
+              <div>
+                <Cart course={cart}></Cart>
+              </div>
+            </div>
           </div>
-          <div className='col-md-2 col-10 mx-auto'>
-          <div className="">
-      <Cart course={cart}></Cart>
-        
       </div>
-          </div>
-        </div>
-    </div>
 
-    <div>
-    <Footer></Footer>
-    </div>
-      
+      <div>
+      <Footer></Footer>
+      </div>
     </div>
     
   );

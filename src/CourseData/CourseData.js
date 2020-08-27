@@ -1,7 +1,7 @@
 const CourseData=[
   {
     id:1,
-    course:"JavaScript Core",
+    course:"JavaScript Core to Advance",
     image:"https://www.trishanatechnologies.com/images/course19.jpg",
     hour:"60 Hours",
     instructor:"Mr. Elvir Renault",
@@ -10,7 +10,7 @@ const CourseData=[
   },
   {
     id:2,
-    course:"JavaScript Advance",
+    course:"JavaScript Advance with projects",
     image:"https://wqimg.s3.amazonaws.com/data/ci/f/41213_large.jpg",
     hour:"65 Hours",
     instructor:"Jheny Freedom",
@@ -82,7 +82,7 @@ const CourseData=[
   },
   {
     id:10,
-    course:"Python for Beginners",
+    course:"Python for Beginners ",
     image:"https://i.pinimg.com/originals/f4/cb/46/f4cb46abfef3390581fbb569ae6d1bc1.jpg",
     hour:"58 hours",
     instructor:"Ulyt Hwe",

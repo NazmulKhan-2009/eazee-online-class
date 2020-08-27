@@ -17,26 +17,35 @@ import { useState } from 'react';
 function App() {
   const [cart, setCart]= useState([])
   // console.log( cart)
+  const [info,setInfo] =useState('col-md-12 col-sm-10 col-10 mx-auto')
+  const [cartview, setCartView]=useState({display: 'none'})
+
+  
+
+
   const courseInfo=CourseData
   // console.log(courseInfo);
 
   const addToCart=(course)=>{
       // console.log(course)
-      setCart([...cart,course])
-
+      setCart([...cart,course]);
+      setInfo('col-md-10 col-sm-10 col-10 mx-auto');
+      setCartView({display: 'block'})
+      
+      
   }
   return (
     <div >
         <Header></Header>
         <div className='container-fluid nav_bg mt-5 '>
           <div className='row'>
-            <div className='col-md-10 col-sm-10 col-10 mx-auto'>
+            <div className={info}>
             
               {
                 courseInfo.map(courses=><Course course={courses} key={courses.id} addToCart={addToCart}></Course>) 
               }
             </div>
-            <div className='col-md-2 col-10 mx-auto'>
+            <div className='col-md-2 col-10 mx-auto' style={cartview}>
               <div>
                 <Cart course={cart}></Cart>
               </div>

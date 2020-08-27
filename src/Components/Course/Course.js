@@ -3,6 +3,7 @@ import './Course.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons' ;
 
+
 const Course = (props) => {
   
   const {course,hour,instructor,image,price,starting}=props.course
@@ -19,7 +20,7 @@ const Course = (props) => {
             <h6>Instructor : {instructor}</h6>
             
             <p>Start on : {starting}</p>
-            <button className="btn btn-primary" onClick={()=>props.addToCart(props.course)}>Enrollment Now  <FontAwesomeIcon icon={faShoppingCart }/></button>
+            <button className="btn btn-primary" onClick={()=>props.addToCart(props.course)}>Enroll Now <FontAwesomeIcon icon={faShoppingCart }/></button>
           </div>
         </div>      
       </div>

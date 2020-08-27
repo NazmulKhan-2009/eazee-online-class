@@ -7,7 +7,7 @@ const Cart = (props) => {
   const course=props.course
   console.log(course);
 
-  const totalCost=course.reduce((tc,cost)=>tc+cost.price,0)
+  const totalCost=course.reduce((totalCost,sub)=>totalCost+sub.price,0)
   
 
 

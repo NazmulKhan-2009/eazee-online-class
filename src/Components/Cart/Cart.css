@@ -1,0 +1,16 @@
+.my-cart p{
+  color:red;
+  border:2px solid lightgrey;
+  padding:5px;
+  justify-content:center;
+  
+}
+.my-cart span{
+  font-weight:bold;
+  
+}
+.my-cart h4,h5{
+  color:#A84CB3;
+  
+  
+}

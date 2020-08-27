@@ -17,15 +17,15 @@ const Cart = (props) => {
 
 
   return (
-    <div className="w-25%">
-      <div className='col-10 bg-dark-gray float-left mx-auto'>
-        <h1>Order::{course.length}</h1>
+    <div className="">
+      <div className='col-12  mx-auto my-cart'>
+        <h5>Order Summery : {course.length}</h5>
        { course.map(info=>
-          <p>{info.course} <span>$ {info.price}</span> </p> 
+          <p>{info.course} <br></br><span>Fees $ {info.price}</span> </p> 
 
           )}
-      <h4>$ {totalCost}</h4> 
-        
+      <h4>Total Cost : $ {totalCost}</h4> 
+        {/* PAID BY MASTER/VISA CARD */}
      </div>
     </div>
   );

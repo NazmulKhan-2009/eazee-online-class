@@ -16,20 +16,20 @@ const Header = () => {
             <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul className="navbar-nav mr-auto mb-2 mb-lg-0 ml-auto">
+              <ul className="navbar-nav mr-auto mb-2 mb-lg-0 ml-auto my-nav">
                 <li className="nav-item">
                   <a className="nav-link active" aria-current="page" href="#">Course Offered</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link disabled" href="#" aria-disabled="true">Link</a>
+                  <a className="nav-link disabled" href="#" aria-disabled="true">Social Link</a>
                 </li>
                 <li className="nav-item dropdown"></li>
                 <li className="nav-item">
-                  <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About</a>
                 </li>
               </ul>
               <form className="d-flex">
-                <input className="form-control mr-2" type="search" placeholder="Search" aria-label="Search"/>
+                <input className="form-control mr-2" type="search" placeholder="Desired Course" aria-label="Search"/>
                 <button className="btn btn-outline-success" type="submit">Search</button>
               </form>
         </div>

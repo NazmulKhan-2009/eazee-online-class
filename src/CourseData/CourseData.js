@@ -55,7 +55,7 @@ const CourseData=[
   },
   {
     id:7,
-    course:"Learn NodeJS",
+    course:"Learn NodeJS effectively",
     image:"https://brainhub.eu/blog/wp-content/uploads/2019/06/what-is-node-js-used-for.png",
     hour:"40 Hours",
     instructor:"Trenda Mins",
@@ -111,7 +111,7 @@ const CourseData=[
     id:13,
     course:"Learn DevOps: The Complete Kubernetes Course",
     image:"https://my-iset.com/wp-content/uploads/2019/03/DevOps.png",
-    hour:"64",
+    hour:"64 Hours",
     instructor:"Denil pitter",
     price:70,
     starting:"September 2020"
@@ -120,7 +120,7 @@ const CourseData=[
     id:14,
     course:"React, TypeScript, Redux, StyledComponents",
     image:"https://www.carlrippon.com/static/cec80a24c223b44124cb8ab9f235027e/26df7/Strongly-typed-React-Redux-Code-with-TypeScript-1024x368.png",
-    hour:"56",
+    hour:"56 Hours",
     instructor:"Melonas Jhon",
     price:45,
     starting:"September 2020"

@@ -29,22 +29,46 @@ function App() {
   return (
     <div >
       <Header></Header>
-      <div className="w-75 float-left p-5">
+
+      <div className='container-fluid nav_bg mt-5'>
+        <div className='row'>
+          <div className='col-md-10 col-sm-10 mx-auto'>
+          <div className="">
       {
          courseInfo.map(courses=><Course course={courses} key={courses.id} addToCart={addToCart}></Course>) 
       }
       
       
       </div>
-      <div className="w-25 float-left bg-light">
+          </div>
+          <div className='col-md-2 col-10 mx-auto'>
+          <div className="">
       <Cart course={cart}></Cart>
-        {/* {
-          cart.map(course=><Cart course={course}></Cart>)
-        } */}
+        
       </div>
-      {/* <button className="btn btn-primary"><FontAwesomeIcon icon={faCoffee} />Click</button> */}
-
+          </div>
+        </div>
     </div>
+
+    <div>
+    <Footer></Footer>
+    </div>
+      
+      {/* <div className="w-75 float-left p-5">
+      {
+         courseInfo.map(courses=><Course course={courses} key={courses.id} addToCart={addToCart}></Course>) 
+      }
+      
+      
+      </div>
+      <div className="w-25 float-left pt-5">
+      <Cart course={cart}></Cart>
+        
+      </div> */}
+      
+      {/* <Footer></Footer> */}
+    </div>
+    
   );
 }
 

@@ -1,0 +1,11 @@
+.my-nav li a{
+  font-family:'MuseoModerno', cursive;
+  font-size:20px;
+  color: red !important;
+  padding-right:20px !important;
+}
+.my-nav li a:hover{
+  color:#168DEB !important;
+  transition:.3s ease all;
+  
+}

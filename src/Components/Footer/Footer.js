@@ -15,11 +15,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-{/* <div className='container-fluid nav_bg'>
- <div className='row'>
-  <div className='col-10 mx-auto'>
-     
-  </div>
- </div>
-</div> */}

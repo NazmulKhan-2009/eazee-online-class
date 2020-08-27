@@ -109,7 +109,7 @@ const CourseData=[
   },
   {
     id:13,
-    course:"Learn DevOps: The Complete Kubernetes Course",
+    course:"Learn DevOps: The Complete Kubernetes",
     image:"https://my-iset.com/wp-content/uploads/2019/03/DevOps.png",
     hour:"64 Hours",
     instructor:"Denil pitter",

@@ -2,17 +2,15 @@ import React from 'react';
 import './Course.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons' ;
-// font-family: 'Noto Sans', sans-serif;
+
 const Course = (props) => {
-  // console.log( props.course)
+  
   const {course,hour,instructor,image,price,starting}=props.course
   return (
-    // <div className='container-fluid nav_bg'>
-    //   <div className='row'>
-        // <div className="w-50">
+    
         <div className='col-md-4 col-10 float-left mb-2'>
             
-          {/* Bootstrap start*/}
+          
           <div className="p-2">
           <div className="card">
             <img src={image} className="card-img-top" style={{width:"100%",height:"30vh"}} alt=""/>
@@ -26,15 +24,12 @@ const Course = (props) => {
 
             </div>
           </div>
-          {/* Bootstrap End*/}
-          {/* fas fa-cart-arrow-down */}
+          
           </div>
 
 
         </div>
-    // </div>
     
-    // </div> 
   );
 };
 

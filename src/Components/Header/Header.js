@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Header.css"
-// font-family: "'MuseoModerno', cursive";
+
 const Header = () => {
   return (
     <div className='container-fluid nav_bg'>
@@ -45,10 +45,3 @@ const Header = () => {
 
 export default Header;
 
-{/* <div className='container-fluid nav_bg'>
- <div className='row'>
-  <div className='col-10 mx-auto'>
-     
-  </div>
- </div>
-</div> */}
